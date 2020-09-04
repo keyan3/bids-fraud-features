@@ -1,6 +1,6 @@
 # Featurizing cannabis storefront data for fraud detection
 
-## Part of [Berkeley Institute for Data Science](https://bids.berkeley.edu) research on the legal cannabis industry
+### Part of [Berkeley Institute for Data Science](https://bids.berkeley.edu) research on the legal cannabis industry
 
 ## Running locally
 
