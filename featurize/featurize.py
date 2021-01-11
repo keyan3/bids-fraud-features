@@ -318,7 +318,7 @@ def main() -> None:
 
     # Write tagged panels to output directory
     for i in range(file_count):
-        files[i].to_csv('output/panel/' + filenames[i][:6] + '_tagged.csv')
+        files[i].to_csv('output/panel/' + filenames[i][:6] + '_tagged.csv', line_terminator='\n')
 
     # Write company mappings to output directory
     for i in range(file_count):

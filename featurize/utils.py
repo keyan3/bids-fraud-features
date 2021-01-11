@@ -136,7 +136,7 @@ def gen_company_mapping(df: pd.DataFrame, path: str) -> None:
 
     mapping = df_sim_2[['company_id']]
 
-    mapping.to_csv(path)
+    mapping.to_csv(path, line_terminator='\n')
 
 
 def get_last_appearance_field_value(slug: str, max_wave: int, field: str, slugs_at_i: List[Set[str]],
